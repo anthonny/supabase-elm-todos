@@ -1,0 +1,25 @@
+{
+  "name": "elm-supabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "*",
+    "elm-hot": "^1.1.6",
+    "node-elm-compiler": "^5.0.6",
+    "sass": "^1.43.2",
+    "tailwindcss": "^1.4.6",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.24.0",
+    "dotenv": "^10.0.0",
+    "parcel": "1.12.3"
+  }
+}
